@@ -7,7 +7,7 @@ public class RA2920482411020 {
     private String course;
     private int semester;
 
-    private RA2920482411020() {
+    public RA2920482411020() {
         this.name = "Richard Felix de Souza";
         this.ra = "2920482411020";
         this.age = 18;
