@@ -1,29 +1,17 @@
-import java.util.Scanner;
-
 public class App {
-        //Comentário
+    public static void showInfo(RA2920482411020 student) {
+        System.out.println(student.getName() + ", " + student.getAge() + " anos");
+        System.out.println("Cursando o " + student.getSemester() + "º semestre de " + student.getCourse());
+        System.out.println("RA: " + student.getRA());
 
-    public static void funcao_teste (){
-        //Biblioteca para entrada de dados
-        Scanner ler = new Scanner(System.in);
+        if (student.getGithub() != null) {
+            System.out.println("GitHub: " + student.getGithub());
+        }
 
-        //variável local 
-        String v2;
-        int v1;
-
-        System.out.println("Comando de Saida de Dados");
-        
-        System.out.printf("Informe uma palavra: ");
-        v2 = ler.next();
-
-        System.out.printf("Informe um número: ");
-        v1 = ler.nextInt();
-
-        System.out.printf(v2+" "+v1);
+        if (student.getLinkedin() != null) {
+            System.out.println("LinkedIn: " + student.getLinkedin());
+        }
     }
-    public static void main(String[] args) throws Exception {
-        funcao_teste();
-
-
+    public static void main(String[] args) {
     }
 }
