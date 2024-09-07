@@ -7,6 +7,7 @@ public class RA2920482411020 {
     private String course;
     private int semester;
 
+    // constructor
     public RA2920482411020() {
         this.name = "Richard Felix de Souza";
         this.ra = "2920482411020";

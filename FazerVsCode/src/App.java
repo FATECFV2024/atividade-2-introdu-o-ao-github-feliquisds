@@ -1,4 +1,5 @@
 public class App {
+    // shows student info in a clear and readable manner
     public static void showInfo(RA2920482411020 student) {
         System.out.println(student.getName() + ", " + student.getAge() + " anos");
         System.out.println("Cursando o " + student.getSemester() + "º semestre de " + student.getCourse());
