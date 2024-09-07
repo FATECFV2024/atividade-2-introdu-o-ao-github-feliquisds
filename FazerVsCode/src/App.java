@@ -1,4 +1,5 @@
 public class App {
+    
     // shows student info in a clear and readable manner
     public static void showInfo(RA2920482411020 student) {
         System.out.println(student.getName() + ", " + student.getAge() + " anos");
@@ -13,6 +14,9 @@ public class App {
             System.out.println("LinkedIn: " + student.getLinkedin());
         }
     }
+
+
+
     public static void main(String[] args) {
         RA2920482411020 student = new RA2920482411020();
         showInfo(student);
