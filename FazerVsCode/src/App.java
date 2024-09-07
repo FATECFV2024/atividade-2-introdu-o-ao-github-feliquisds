@@ -13,5 +13,16 @@ public class App {
         }
     }
     public static void main(String[] args) {
+        RA2920482411020 student = new RA2920482411020();
+        showInfo(student);
+
+        student.setName("Felix de Souza");
+        student.setAge(19);
+        student.setSemester(2);
+
+        student.setGithub("github.com/feliquisds");
+        student.setLinkedin("linkedin.com/in/feliquisds");
+
+        showInfo(student);
     }
 }
