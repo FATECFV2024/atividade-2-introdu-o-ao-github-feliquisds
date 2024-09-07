@@ -35,10 +35,10 @@ public class RA2920482411020 {
 
 
     // age methods
-    public int getIdade() {
+    public int getAge() {
         return age;
     }
-    public void setIdade(int _age) {
+    public void setAge(int _age) {
         this.age = _age;
     }
 
